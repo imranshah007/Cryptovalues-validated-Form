@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Form using JS</title>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+      <link rel="stylesheet" href="form.css" />
+      <script src="https://kit.fontawesome.com/3ceeafa91f.js" crossorigin="anonymous"></script>
+   </head>
+   <body>
+      <div class="container">
+         <div class="heading">
+            <h2>Sign up using validation</h2>
+         </div>
+         <form class="form">
+            <div class="form_control">
+               <label for = "username" >User Name</label>
+               <input type = "text" id="username">
+               <i class="fas fa-exclamation-circle"></i>
+               <i class="fas fa-check-circle"></i>
+               <small class="username" id="error"></small>
+            </div>
+            <div class="form_control">
+               <label for = "email" >Email</label>
+               <input type = "text" id="email">
+               <i class="fas fa-exclamation-circle"></i>
+               <i class="fas fa-check-circle"></i>
+               <small class="email" id="error"></small>
+            </div>
+            <div class="form_control">
+               <label for = "password" >Password</label>
+               <input type = "password" id="password">
+               <i class="fas fa-exclamation-circle"></i>
+               <i class="fas fa-check-circle"></i>
+               <small class="password" id="error"></small>
+            </div>
+            <div class="form_control">
+               <label for = "conf_password" >Confirm Password</label>
+               <input type = "password" id="conf_password">
+               <i class="fas fa-exclamation-circle"></i>
+               <i class="fas fa-check-circle"></i>
+               <small class="confirmpassword" id="error"></small>
+            </div>
+            <button href="google.com">Submit</button>
+        
+        </form>
+    </div>
+    <script src="form.js"></script>
+ </body>
+</html>
